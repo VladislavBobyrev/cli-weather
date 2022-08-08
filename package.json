@@ -1,0 +1,19 @@
+{
+  "name": "cli-weather",
+  "version": "1.0.0",
+  "description": "приложение погода написано на node js",
+  "main": "weather.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather cli",
+    "приложение погода"
+  ],
+  "author": "Vladislav Bobyrev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
