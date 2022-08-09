@@ -4,6 +4,9 @@
   "description": "приложение погода написано на node js",
   "main": "weather.js",
   "type": "module",
+  "bin": {
+    "weather": "weather.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +17,7 @@
   "author": "Vladislav Bobyrev",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1"
   }
 }
