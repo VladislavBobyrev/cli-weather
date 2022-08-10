@@ -1,5 +1,5 @@
 {
-  "name": "cli-weather",
+  "name": "cli-global-weather",
   "version": "1.0.0",
   "description": "приложение погода написано на node js",
   "main": "weather.js",
@@ -8,7 +8,8 @@
     "weather": "weather.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node weather.js"
   },
   "keywords": [
     "weather cli",
@@ -16,6 +17,10 @@
   ],
   "author": "Vladislav Bobyrev",
   "license": "ISC",
+  "bugs": {
+    "email": "perets1995@gmail.com"
+  },
+  "funding": "https://github.com/VladislavBobyrev",
   "dependencies": {
     "axios": "^0.27.2",
     "chalk": "^5.0.1"
